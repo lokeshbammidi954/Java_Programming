@@ -44,7 +44,7 @@ public class Month {
                 System.out.println("December");
                 break;
             default:
-                System.out.println("Enter vails month");
+                System.out.println("Enter valid month");
         }
     }
 }
