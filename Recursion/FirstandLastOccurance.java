@@ -18,6 +18,7 @@ public class FirstandLastOccurance {
                 last = index;
             }
         }
+        FirstandLastOcc(S, index+1, element);
 
     }
     public static void main(String[] args) {
