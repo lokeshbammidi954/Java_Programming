@@ -7,7 +7,7 @@ public class KeypadCombination {
             System.out.println(res);
             return;
         }
-
+        
         for(int i=0; i<keypad[number.charAt(idx)-'0'].length(); i++) {
             char curr = keypad[number.charAt(idx)-'0'].charAt(i);
             printKeypadCombination(number, idx+1, res+curr);
