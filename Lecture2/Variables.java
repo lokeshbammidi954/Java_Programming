@@ -6,7 +6,7 @@ public class Variables {
     public static void main(String[] args) {
         int age = 18;
         char M = 'm';
-        String name = "Lokesh";
+        String name = "Lokesh bammidi";
         System.out.println(age+" "+M+" "+name);
 
     }
