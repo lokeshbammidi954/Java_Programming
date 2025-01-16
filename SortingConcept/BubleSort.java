@@ -10,6 +10,7 @@ public class BubleSort {
         for(int i=0;i<size;i++){
             arr[i] = sc.nextInt();
         }
+
         //Bubble sorting
         for(int i=0;i<arr.length-1;i++){
             for(int j=0;j<arr.length-i-1;j++){
@@ -20,7 +21,6 @@ public class BubleSort {
                 }
             }
         }
-
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
         }

@@ -25,5 +25,6 @@ public class SearchElementIn2DArray {
             }
             System.out.println();
         }
+        System.out.println(X+"Not found in the array");
     }
 }
